@@ -57,8 +57,3 @@ get_header();
             </div> <!-- end content-wrap -->
         </div> <!-- end content page-content -->
 <?php get_footer();?>
-
-
-
-
-<p style="text-al\"></p>
