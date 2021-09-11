@@ -673,7 +673,7 @@ header {
 }
 
 .below-header-col2 {
-    width: 57%;
+    width: 79%;
     float: left;
     text-align: center;
 }
@@ -1818,7 +1818,7 @@ img {
     width: 88%;
     margin: auto;
     position: relative;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .thmk-woocommerce-search-wrap .search-container {

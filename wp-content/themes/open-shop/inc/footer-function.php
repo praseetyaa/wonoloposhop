@@ -277,7 +277,7 @@ elseif($content=='menu'){
 <?php 
   open_shop_footer_nav_menu();
  }else{?>
-<a href="<?php echo esc_url( admin_url( 'nav-menus.php' ) ); ?>"><?php esc_html_e( 'Assign footer menu', 'open-shop' );?></a>
+<!-- <a href="<?php //echo esc_url( admin_url( 'nav-menus.php' ) ); ?>"><?php //esc_html_e( 'Assign footer menu', 'open-shop' );?></a> -->
  <?php }
 }elseif($content=='widget'){?>
 	<div class="content-widget">
@@ -317,7 +317,7 @@ function open_shop_top_footer_conetnt_col2($content){ ?>
     <?php if( is_active_sidebar('footer-top-second' ) ){
     dynamic_sidebar('footer-top-second' );
      }else{?>
-     	<a href="<?php echo esc_url( admin_url( 'widgets.php' ) ); ?>"><?php esc_html_e( 'Add Widget', 'open-shop' );?></a>
+     	<!-- <a href="<?php //echo esc_url( admin_url( 'widgets.php' ) ); ?>"><?php //esc_html_e( 'Add Widget', 'open-shop' );?></a> -->
      <?php }?>
      </div>
 <?php }elseif($content=='social'){?>
@@ -380,12 +380,12 @@ echo esc_html(get_theme_mod('open_shop_footer_bottom_col1_texthtml'));
               );
               ?>
               <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-            <span class="powered-by-wordpress">
-              <span><?php _e( 'Powered by', 'open-shop' ); ?></span>
-              <a href="<?php echo esc_url( __( 'https://themehunk.com/', 'open-shop' ) ); ?>">
-                <?php _e( 'Themehunk WordPress Theme', 'open-shop' ); ?>
+<!--             <span class="powered-by-wordpress">
+              <span><?php //_e( '', 'open-shop' ); ?></span>
+              <a href="<?php //echo esc_url( __( 'https://themehunk.com/', 'open-shop' ) ); ?>">
+                <?php //_e( 'Themehunk WordPress Theme', 'open-shop' ); ?>
               </a>
-            </span>
+            </span> -->
             </p><!-- .footer-copyright -->
 
             
