@@ -7398,7 +7398,7 @@ h5.testimonial-position {
 
     /*hedaer*/
     .below-header-col2 {
-        width: 52%;
+        width: 70%;
     }
 
     .below-header-col3 {
@@ -7748,7 +7748,7 @@ h5.testimonial-position {
     }
 
     .below-header-col2 {
-        width: 57%;
+        width: 80%;
         float: left;
         margin-left: 10px;
     }
@@ -8493,7 +8493,7 @@ h5.testimonial-position {
     }
 
     .below-header-col2 {
-        width: 45%;
+        width: 80%;
         margin-left: 8px;
         margin-right: 8px;
     }
@@ -9051,7 +9051,7 @@ h5.testimonial-position {
 
 @media screen and (max-width:350px) {
     .below-header-col2 {
-        width: 36%;
+        width: 80%;
     }
 
 }
