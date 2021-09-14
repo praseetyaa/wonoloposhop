@@ -24,7 +24,7 @@
 	<?php endif; ?>
 	<?php wp_head(); ?>
 </head>
-<body <?php body_class();?>>
+<body <?php body_class('spandiv');?>>
 <?php wp_body_open();?>	
 <?php 
 $classes = '';
